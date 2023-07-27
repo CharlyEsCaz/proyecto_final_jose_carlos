@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.ittoluca.lubinpc.practicafinal">
+          package="com.ittoluca.josecarlos.practicafinal">
 
     <uses-permission android:name="android.permission.CAMERA"></uses-permission>
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
@@ -15,19 +15,19 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".Botones">
+        <activity android:name="com.ittoluca.josecarlos.practicafinal.Botones">
 
         </activity>
         <activity android:name=".Continuar">
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.ittoluca.josecarlos.practicafinal.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <provider android:authorities="com.ittoluca.lubinpc.practicafinal"
+        <provider android:authorities="com.ittoluca.josecarlos.practicafinal"
                   android:name="android.support.v4.content.FileProvider"
                   android:grantUriPermissions="true">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS"

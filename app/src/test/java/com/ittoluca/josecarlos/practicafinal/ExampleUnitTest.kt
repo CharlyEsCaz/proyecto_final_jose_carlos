@@ -1,4 +1,4 @@
-package com.ittoluca.lubinpc.practicafinal
+package com.ittoluca.josecarlos.practicafinal
 
 import org.junit.Test
 
